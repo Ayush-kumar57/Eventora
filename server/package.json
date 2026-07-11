@@ -1,0 +1,38 @@
+{
+  "name": "eventtora-server",
+  "version": "1.0.0",
+  "description": "Eventora Backend",
+  "keywords": [
+    "event",
+    "booking"
+  ],
+  "homepage": "https://github.com/Ayush-kumar57/EventTora#readme",
+  "bugs": {
+    "url": "https://github.com/Ayush-kumar57/EventTora/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayush-kumar57/EventTora.git"
+  },
+  "license": "ISC",
+  "author": "Ayush Kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
+    "moongoose": "^0.0.5",
+    "nodemailer": "^9.0.3",
+    "nodemon": "^3.1.14"
+  }
+}

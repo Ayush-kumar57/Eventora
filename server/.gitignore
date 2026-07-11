@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables (가장 महत्वपूर्ण)
+.env
+.env.local
+.env.production
+
+# Mac operating system files
+.DS_Store
